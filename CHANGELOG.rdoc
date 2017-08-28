@@ -1,0 +1,48 @@
+== v2.0.1
+* improving support for ActiveType 'Presenters' (thanks @Bogadon)
+== v2.0.0
+* addin the ability to dinamicaly scope the counter (thanks @emaxi)
+  This will require a migration to users using the old version of the gem
+== v1.0.3
+* gemspec fix to accept  Rails >4 #26, previous PR didn't fix it.
+== v1.0.2
+* accepting Rails >4 #21
+* removing debugger gem and dropping ruby 1.9.3 support
+== v1.0.1
+* BUG FIX: time comparison with UTC (#14)
+* Adding code announcement for bad or missing patterns (thanks @sammyjopeters)
+
+== v1.0.0
+* BUG FIX: column rename (#17)
+* bump to 1.0.0 to let people know about the API incompability
+
+== v0.6.0
+* BUG FIX: LocalJumpError (#11)
+* Added "day" pattern (#8)
+
+== v0.4.0
+* Adding support to database driven counter and not in memory anymore.
+* Simplifying code
+* new API:
+	reserve_<column name> # use to get the auto generated number without
+						  #	saving the model in the database
+
+== v0.3.1
+* BUG FIX: Updates were updating the number count. oO
+		   now the number is only incremented when you create the model.
+
+== v0.3.0
+* BUG FIX: If using %y%m and only year changes, counter was not restarting.
+
+== v0.2.0
+* Performance improvement
+* Refactoring
+
+== v0.1.1
+* Updating gem description
+
+== v0.1.0
+* Working!
+
+== v0.0.1
+* Initial code

@@ -1,0 +1,15 @@
+.bundle/
+log/*.log
+pkg/
+test/dummy/db/*.sqlite3
+test/dummy/log/*.log
+test/dummy/tmp/
+.idea/
+protokoll-*.gem
+rdoc/
+.DS_Store/
+.DS_Store
+lib/.DS_Store
+Gemfile.lock
+.ruby-gemset
+.ruby-version
